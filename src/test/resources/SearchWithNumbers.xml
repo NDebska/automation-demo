@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchWithNumbers" >
+    <test name="SearchWithNumbers" >
+        <classes>
+            <class name="com.google.searchresults.SearchWithNumbers" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Search Suite" parallel = "tests" thread-count = "2">
+    <test name="HomePageTest" >
+        <classes>
+            <class name="com.google.homepage.HomePageTest" />
+        </classes>
+    </test>
+    <test name="SearchWithWords" >
+        <classes>
+            <class name="com.google.searchresults.SearchWithWords" />
+        </classes>
+    </test>
+    <test name="SearchWithNumbers" >
+        <classes>
+            <class name="com.google.searchresults.SearchWithNumbers" />
+        </classes>
+    </test>
+    <test name="SearchWithSpecialChars" >
+        <classes>
+            <class name="com.google.searchresults.SearchWithSpecialChars" />
+        </classes>
+    </test>
+    <test name="SearchWithAutoSuggestions" >
+        <classes>
+            <class name="com.google.searchresults.SearchWithAutoSuggestions" />
+        </classes>
+    </test>
+</suite>
