@@ -50,8 +50,7 @@ Test Approach for Google.com - Homepage and Search Results page – by Natalia  
 
 6. Test Automation
 Since task description states to test google homepage and search results page, this test approach will not cover testing of Gmail/Images/Google apps/Sign in links to other apps/footer links, etc. There are numerous other tests that can be done on a Homepage beside testing of search funtionality: pagination bar, redirecting to Gmail/other apps, etc. 
-I prepared a draft framework for automating some of the UI tests which can be found on Github under link: https://github.com/NDebska/automation-demo 
-It was created with Java, TestNG and Selenide. All tests can be run in parallel in two threads via running SearchAllTest.xml with testNG.
+I prepared a draft framework for automating some of the UI tests and details can be found below.
 
 Reference: 
 Certified Tester Foundation Level, Syllabus, Version 2018 V3.1, International
@@ -89,6 +88,8 @@ Tests can be run in several ways:
   You can also use combination of keys Ctrl+Shift+F10 for that.
 * by setting up the configuration manually in IntelliJ "Edit Configurations" field
 * by running a command in command line - instruction: https://testng.org/doc/documentation-main.html#running-testng
+
+By running SearchAllTests.xml file tests will be run in parallel in two threads.
 
 ## 5. License
 Selenium is an open source tool for designing automated tests of web applications.
